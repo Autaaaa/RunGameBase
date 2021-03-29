@@ -1,7 +1,31 @@
 fileFormatVersion: 2
 guid: 3861819ecbddc5b45ba85b960466a22f
 TextureImporter:
-  internalIDToNameTable: []
+  internalIDToNameTable:
+  - first:
+      213: -7631266188496300205
+    second: Toko_Run_0
+  - first:
+      213: -5463094655671967035
+    second: Toko_Run_1
+  - first:
+      213: 1512286192469168100
+    second: Toko_Run_2
+  - first:
+      213: 1448401179475991342
+    second: Toko_Run_3
+  - first:
+      213: -7538876894669815955
+    second: Toko_Run_4
+  - first:
+      213: -5053254367800963472
+    second: Toko_Run_5
+  - first:
+      213: -1947896880854126060
+    second: Toko_Run_6
+  - first:
+      213: 2339075106299043481
+    second: Toko_Run_7
   externalObjects: {}
   serializedVersion: 10
   mipmaps:
@@ -40,7 +64,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -50,7 +74,7 @@ TextureImporter:
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
   alphaIsTransparency: 1
-  spriteTessellationDetail: -1
+  spriteTessellationDetail: 0
   textureType: 8
   textureShape: 1
   singleChannelComponent: 0
@@ -69,11 +93,205 @@ TextureImporter:
     allowsAlphaSplitting: 0
     overridden: 0
     androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: Toko_Run_0
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 10
+        width: 29
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 667a1269587fff447a8aa02bce9db3b9
+      internalID: -7631266188496300205
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Toko_Run_1
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 7
+        width: 26
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f3ef2a9ed0f66f04e8fa8f00f087373c
+      internalID: -5463094655671967035
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Toko_Run_2
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 7
+        width: 24
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c6a68d6fbc8e72479d538aaf9794cd6
+      internalID: 1512286192469168100
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Toko_Run_3
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 9
+        width: 25
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d0fafd664c3a03479247b2cb2468cf1
+      internalID: 1448401179475991342
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Toko_Run_4
+      rect:
+        serializedVersion: 2
+        x: 274
+        y: 11
+        width: 31
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 423c4633a7590644e9de65b49772d10f
+      internalID: -7538876894669815955
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Toko_Run_5
+      rect:
+        serializedVersion: 2
+        x: 338
+        y: 8
+        width: 25
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 55042af84d540744c90b6f1cffc5edab
+      internalID: -5053254367800963472
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Toko_Run_6
+      rect:
+        serializedVersion: 2
+        x: 402
+        y: 8
+        width: 24
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab1e6d3d1b8e7974eac1c4d175fcb6b8
+      internalID: -1947896880854126060
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Toko_Run_7
+      rect:
+        serializedVersion: 2
+        x: 466
+        y: 9
+        width: 25
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c37dc3eef3c1346478adeee8619761df
+      internalID: 2339075106299043481
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
-    physicsShape: []
+    physicsShape:
+    - - {x: -246, y: -28}
+      - {x: -246, y: 22}
+      - {x: -208, y: 22}
+      - {x: -206, y: -27}
     bones: []
     spriteID: acfbfb03d43402e47a6c73861f90b21c
     internalID: 0
