@@ -132,6 +132,7 @@ GameObject:
   - component: {fileID: 289299242}
   - component: {fileID: 289299241}
   - component: {fileID: 289299240}
+  - component: {fileID: 289299243}
   m_Layer: 0
   m_Name: Sky (1)
   m_TagString: Untagged
@@ -239,6 +240,19 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &289299243
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 289299238}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c2ca0aa4b84c1504696d953a8df35de3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  speed: 10
 --- !u!1 &519420028
 GameObject:
   m_ObjectHideFlags: 0
@@ -584,6 +598,7 @@ GameObject:
   - component: {fileID: 839270183}
   - component: {fileID: 839270182}
   - component: {fileID: 839270181}
+  - component: {fileID: 839270184}
   m_Layer: 0
   m_Name: StartPlatform
   m_TagString: Untagged
@@ -679,6 +694,19 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &839270184
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 839270180}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c2ca0aa4b84c1504696d953a8df35de3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  speed: 10
 --- !u!1 &842443430
 GameObject:
   m_ObjectHideFlags: 0
@@ -691,6 +719,7 @@ GameObject:
   - component: {fileID: 842443432}
   - component: {fileID: 842443431}
   - component: {fileID: 842443434}
+  - component: {fileID: 842443435}
   m_Layer: 0
   m_Name: Sky
   m_TagString: Untagged
@@ -798,6 +827,19 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f4c03d3993d064444b3231663d8ce0bb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &842443435
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 842443430}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c2ca0aa4b84c1504696d953a8df35de3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  speed: 10
 --- !u!1 &1120960545
 GameObject:
   m_ObjectHideFlags: 0
